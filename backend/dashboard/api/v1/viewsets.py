@@ -1,3 +1,4 @@
+from rest_framework import authentication
 from rest_framework import viewsets
 from dashboard.models import Exercises
 from .serializers import ExercisesSerializer
